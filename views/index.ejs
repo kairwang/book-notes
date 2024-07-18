@@ -20,8 +20,8 @@
             <p class="card-text">Author: <%= book.author %></p>
             <p class="card-text">Rating: <%= book.rating %></p>
             <p class="card-text">Read Date: <%= new Date(book.read_date).toLocaleDateString() %></p>
-            <p class="card-text"><%= book.favorite ? '<span class="badge bg-success">Favorite</span>' : '' %></p>
-            <p class="card-text"><%= book.to_read ? '<span class="badge bg-warning text-dark">To Read</span>' : '' %></p>
+            <p class="card-text"><%- book.favorite ? '<span class="badge bg-success">Favorite</span>' : '' %></p>
+            <p class="card-text"><%- book.to_read ? '<span class="badge bg-warning text-dark">To Read</span>' : '' %></p>
           </div>
           <div class="card-footer">
             <a href="/edit/<%= book.id %>" class="btn btn-secondary">Edit</a>
