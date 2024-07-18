@@ -6,5 +6,7 @@ CREATE TABLE books (
     rating NUMERIC,  -- You can change this to TEXT if you prefer
     read_date DATE,  -- You can change this to TEXT if you prefer
     cover_url TEXT,
-    isbn TEXT UNIQUE
+    isbn TEXT UNIQUE,
+    favorite BOOLEAN,
+    to_read BOOLEAN
 );
