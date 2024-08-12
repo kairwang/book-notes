@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web application for managing book notes. Users can add, edit, and view books along with their ratings, read dates, cover images, and short reviews. Additionally, allows users to mark books as favorites or to-read.
+This project is a web application for managing book notes. Users can add, edit, and view books along with their ratings, read dates, cover images, and short reviews. Additionally, the app allows users to mark books as favorites or to-read.
 
 ## Features
 
